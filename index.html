@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <form action="">
+            <h1>Thông tin vận động viên </h1>
+            <h4> 
+                <div class="person">
+                    <p>1.Ronaldo </P>
+                    <button type="button" class="match js-match-ro">join the match</button>                
+                    <button type="button" class="practice js-pra-ro">practice</button>
+                </div>
+
+                <div class="person">
+                    <P> 2.Messi </P>
+                    <button type="button" class="match js-match-si">join the match</button>                
+                    <button type="button" class="practice js-pra-si">practice</button>
+                </div>
+
+                <div class="person">
+                    <P> 3.Santos </P>
+                    <button type="button" class="match js-match-sa">join the match</button>                
+                    <button type="button" class="practice js-pra-sa">practice</button>
+                </div>
+
+                <div class="person">
+                    <P> 4.James </P>
+                    <button type="button" class="match js-match-ja">join the match</button>                
+                    <button type="button" class="practice js-pra-ja">practice</button>
+                </div>
+
+                <div class="person">
+                    <P> 5.Mike </P>
+                    <button type="button" class="match js-match-mi">join the match</button>                
+                    <button type="button" class="practice js-pra-mi">practice</button>
+                </div>
+
+                <div class="person">
+                    <P> 6.Ánh Viên </P>
+                    <button type="button" class="match js-match-anh">join the match</button>                
+                    <button type="button" class="practice js-pra-anh">practice</button>
+                </div>
+
+            </h4>
+            <div class="search">
+                <h3>Nhập vận động viên mà bạn muốn tìm thông tin:</h3>
+                <input  type="text" id="txt" /> 
+                <button class="btn" type="button" onclick="lua_chon()">Tìm kiếm</button>
+                <h3> Kết quả: </h3>  
+                <span id="name"></span>
+                <span class="index_inf" id="index"></span>
+            </div>        
+        </form>
+    </div>
+
+    <div class="img">
+        <div class="img-avdv"></div>
+    </div>
+
+
+
+    <script src="js/Athlete.js"></script>
+    <script src="js/SoccerPlayer.js"></script>
+    <script src="js/VolleyballPlayer.js"></script>
+    <script src="js/BasketballPlayer.js"></script>
+    <script src="js/BaseballPlayer.js"></script>
+    <script src="js/Swimmers.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+body{
+    background-color:rgb(149, 168, 152)
+}
+h1{
+    text-align: center;
+}
+h4{
+    text-align:center;
+    display: inline-block;
+    text-align:left;
+    margin-left: 200px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.person p{
+    margin-bottom: 5px;
+}
+
+.person{
+    margin-bottom: 25px;
+}
+
+.person .match{
+    margin-right: 8px;
+}
+
+.person button{
+    padding: 2px 5px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.person button:hover{
+    background-color:rgb(164, 219, 185);
+}
+
+.search{
+ float: right;
+ margin-right:400px;
+ margin-top:10px;
+}
+.btn:hover{
+    background-color:rgb(164, 219, 185);
+}
+.btn{
+    border-radius: 2px;
+}
+
+.img{
+    position: fixed;
+    top: 150px;
+    right: 0px;
+    width: 450px;
+    height: 700px;
+}
+
+.js-open-ma-ro{
+    padding-top: 70%;
+    background: url('/img/ronaldo4-jpeg-6221-1631376902.jpg') top right / cover no-repeat;
+    animation: modalFadeIn ease .6s;
+}
+.js-open-pr-ro{
+    padding-top: 70%;
+    background: url('/img/ronaldo-tap-luyen.jpg') top right / cover no-repeat;
+    animation: modalFadeIn ease .6s;
+}
+
+.js-open-ma-si{
+    padding-top: 70%;
+    background: url('/img/messi-thi-d.jpeg') top right / cover no-repeat;
+    animation: modalFadeIn ease .6s;
+}
+.js-open-pr-si{
+    padding-top: 70%;
+    background: url('/img/video-59-giay-buoi-tap-dau-tien-cua-messi-tai-psg\ \(2\).jpg') top right / cover no-repeat;
+    animation: modalFadeIn ease .6s;
+}
+
+.js-open-ma-sa{
+    padding-top: 70%;
+    background: url('/img/gettyimages-593228640-612x612.jpg') top right / cover no-repeat;
+    animation: modalFadeIn ease .6s;
+}
+.js-open-pr-sa{
+    padding-top: 70%;
+    background: url('/img/9de897d75edcfb37959a64d977cb5cda--brazil-volleyball-volleyball-players.jpg') top right / cover no-repeat;
+    animation: modalFadeIn ease .6s;
+}
+
+.js-open-ma-ja{
+    padding-top: 70%;
+    background: url('/img/Lakers-LeBron-James-1.jpg') top right / cover no-repeat;
+    animation: modalFadeIn ease .6s;
+}
+.js-open-pr-ja{
+    padding-top: 70%;
+    background: url('/img/lebron-james-130538.jpg') top right / cover no-repeat;
+    animation: modalFadeIn ease .6s;
+}
+
+.js-open-ma-mi{
+    padding-top: 70%;
+    background: url('/img/83275639-tampa-bay-rays-v-boston-red-sox-game-4.jpg.jpg') top right / cover no-repeat;
+    animation: modalFadeIn ease .6s;
+}
+.js-open-pr-mi{
+    padding-top: 70%;
+    background: url('/img/gettyimages-451214020-612x612.jpg') top right / cover no-repeat;
+    animation: modalFadeIn ease .6s;
+}
+
+.js-open-ma-anh{
+    padding-top: 70%;
+    background: url('/img/anh-vien-1.jpg') top right / cover no-repeat;
+    animation: modalFadeIn ease .6s;
+}
+.js-open-pr-anh{
+    padding-top: 70%;
+    background: url('/img/333.jpg') top right / cover no-repeat;
+    animation: modalFadeIn ease .6s;
+}
+
+.js-open-ro{
+    padding-top: 70%;
+    background: url('/img/hinh-anh-cr7-dep-1.jpg') top right / cover no-repeat;
+    animation: modalFadeIn ease .6s;
+}
+
+.js-open-si{
+    padding-top: 70%;
+    background: url('/img/photo-1-1530073552125568805463.jpg') top right / cover no-repeat;
+    animation: modalFadeIn ease .6s;
+}
+
+.js-open-sa{
+    padding-top: 70%;
+    background: url('/img/srgio-santos-42e9c196-9265-4f83-95ad-c2eb3330f9a-resize-750.webp') top right / cover no-repeat;
+    animation: modalFadeIn ease .6s;
+}
+
+.js-open-ja{
+    padding-top: 70%;
+    background: url('/img/gettyimages-1293548858-ff751abce0650a3abd41217b9c5de0a89190d564-s1200-c85.webp') top right / cover no-repeat;
+    animation: modalFadeIn ease .6s;
+}
+
+.js-open-mi{
+    padding-top: 70%;
+    background: url('/img/https___specials-images.forbesimg.com_imageserve_5cfe6e6c4c687b0008593078_0x0.jpg_background=000000&cropX1=526&cropX2=2241&cropY1=121&cropY2=1835') top right / cover no-repeat;
+    animation: modalFadeIn ease .6s;
+}
+
+.js-open-anh{
+    padding-top: 70%;
+    background: url('/img/anh-vien-that-bai-the-tham-he-lo-nguyen-nhan-sa-sut-cua-anh-vien-1564325477-width2126height1412-1564669403-115-width660height438.jpg') top right / cover no-repeat;
+    animation: modalFadeIn ease .6s;
+}
+
+@keyframes modalFadeIn{
+    from{
+        opacity: 0;
+        transform: translateX(300px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
