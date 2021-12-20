@@ -12,7 +12,7 @@ let Mike = new BaseballPlayer("Mike", 32, "Nam", 188, 90, "Mỹ", "bóng chày "
 let AnhVien = new Swimmers("Ánh Viên ", 25, "Nữ", 173, 53, "Việt Nam", "Bơi lội ", 178, 98, 96, 95);
 
 
- function lua_chon(){
+function lua_chon(){
     //  lấy giá trị trong thẻ input người dùng nhập
        var x = document.querySelector('#txt').value;
        x = parseFloat(x); //chuyển kiểu dữ liệu về dạng số
